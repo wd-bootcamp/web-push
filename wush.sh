@@ -105,7 +105,7 @@ git add . && git commit -m "initial commit"
 gh repo create -s=. --push --public --remote=origin neuefische-web-demos/"$repository_name"
 
 if [ $? -eq 0 ]; then
-  echo $(highlightText "Repository created: https://github.com/neuefische-web-demos/$repository_name")
+  echo $(highlightText "Repository created: https://github.com/wd-bootcamp/$repository_name")
 else
   echo $(printError "Failed to create repository. Please check if 'gh' command is installed.")
 fi
