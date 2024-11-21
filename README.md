@@ -16,7 +16,7 @@ Add this code to your `.zshrc` and restart the terminal:
 
 ```bash
 function wush {
-  zsh <(curl -sSL "https://raw.githubusercontent.com/neuefische/web-push/main/wush.sh") $@
+  zsh <(curl -sSL "https://raw.githubusercontent.com/wd-bootcamp/web-push/main/wush.sh") $@
 }
 ```
 
