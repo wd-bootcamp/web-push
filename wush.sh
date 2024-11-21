@@ -102,7 +102,7 @@ fi
 
 Commit everything and upload the repository
 git add . && git commit -m "initial commit"
-gh repo create -s=. --push --public --remote=origin neuefische-web-demos/"$repository_name"
+gh repo create -s=. --push --public --remote=origin wd-bootcamp/"$repository_name"
 
 if [ $? -eq 0 ]; then
   echo $(highlightText "Repository created: https://github.com/wd-bootcamp/$repository_name")
